@@ -1,0 +1,168 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #444;
+  background-color: #fafafa;
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #444;
+}
+
+label[for="ant-counter"] {
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+#ant-counter {
+  margin-right: 60px;
+}
+
+label[for="step-counter"] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#step-counter {
+  margin-right: 60px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.slider-container label {
+  margin-right: 5px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider.volume {
+  margin-right: 10px;
+}
+
+.slider.speed {
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+.button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #0062cc;
+}
+
+#download-button {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+#download-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+#download-button:hover:not(:disabled) {
+  background-color: #1e7e34;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#grid {
+  border: 1px solid #ccc;
+  padding: 0 20px;
+  /* add left and right padding of 20px */
+  width: 100%;
+  /* set the width to 100% */
+}
+
+@media screen and (max-width: 768px) {
+  #grid {
+    padding: 0 10px;
+  }
+}
+
+.slider-container label,
+.slider-container input[type="range"] {
+  margin-right: 40px;
+}
+
+.button,
+#download-button {
+  margin-right: 20px;
+}
