@@ -10,7 +10,8 @@ Langton's Ant is a JavaScript-based project that simulates the movements of an i
 - **Print PDF**: Generate a PDF of all ant movements.
 - **Generate Image**: Create an image of ant movements.
 
-https://github.com/ravitiwari2002/Langton-s-Ant/assets/81186121/bbbef21b-a25e-4430-8a92-0b7a09953a1e
+https://github.com/ravitiwari2002/Langton-s-Ant/assets/81186121/2e454d0e-179b-4ca4-9e04-b4727ad5fc5b
+
 
 ## License
 
